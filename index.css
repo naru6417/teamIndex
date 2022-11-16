@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@200;300;400;600;700&display=swap');
+
+
+body {
+    background-color: #222629;
+    color: #FFFFFF;
+    font-family: 'Urbanist', sans-serif;
+    line-height: 1.5; 
+    font-size: 15px;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+    margin: 0;
+    position: relative;
+}
+
+::-webkit-scrollbar-track {
+    background: inherit;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 9999px;
+    background: #666;
+}
+
+::-webkit-scrollbar {
+    width: 0.75em;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    max-width: 850px;
+    min-height: 100vh;
+    margin: 0 auto;
+}
+
+/* Nav customizations*/
+.top-nav {
+    display: flex;
+    justify-content: flex-start;
+}
+.top-nav a {
+    text-decoration: none;
+    transition: 0.5s;
+    padding: 1em;
+    position: relative;
+    border-bottom: 1px solid #222629;
+}
+.top-nav a:visited{
+    color:#FFFFFF;
+}
+.top-nav a:link{
+    color:#FFFFFF;
+}
+.top-nav a:hover {
+    color: #86C232;
+    border-bottom: 1px solid #82c1ff;
+}
+
+/* Page Content Customizations */
+.page-content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 1em;
+}
+
+/* Carousel customizations */
+.carousel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+/* Card customizations */
+.card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
+    width: 100%;
+    border-radius: 25px;
+    padding: 30px;
+    border: 1px solid #ffffff40;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.4);
+}
+/* Pfp customizations */
+
+.pfp {
+    height: 150px;
+    width: 150px;
+    margin: auto;
+}
+
+.pfp img {
+    height: 100%;
+    width: 100%;
+    border-radius: 700px;
+}
+
+/* name customizations */
+
+.name {
+    color: #61892F;
+}
+
+/* view more btn customizations */
+.view-more-btn {
+    margin-top: 1.5em;
+}
+
+.view-more-btn a {
+    text-decoration: none;
+    transition: 0.5s;
+    padding: 1em;
+    border-radius: 100px;
+    color: #61892F;
+    border: 1px solid #61892F;
+    position: relative;
+}
+.view-more-btn a:visited{
+    color:#61892F;
+}
+.view-more-btn a:link{
+    color:#61892F;
+}
+.view-more-btn a:hover {
+    color: #86C232;
+    border: 1px solid #86C232;
+}
+
+
+/* Footer customizations*/
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    padding: 0.2em 0;
+    width: 100%;
+    text-align: center;
+}
